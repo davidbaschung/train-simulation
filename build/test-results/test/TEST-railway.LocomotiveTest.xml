@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="railway.LocomotiveTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-05-18T23:06:42" hostname="LAPTOP-IDTQVOHN" time="9.018">
+  <properties/>
+  <testcase name="getInertia()" classname="railway.LocomotiveTest" time="0.001"/>
+  <testcase name="getDirection()" classname="railway.LocomotiveTest" time="0.001"/>
+  <testcase name="reachSpeed()" classname="railway.LocomotiveTest" time="4.502"/>
+  <testcase name="isLightOn()" classname="railway.LocomotiveTest" time="0.001"/>
+  <testcase name="emergencyStop()" classname="railway.LocomotiveTest" time="3.502"/>
+  <testcase name="getAddress()" classname="railway.LocomotiveTest" time="0.0"/>
+  <testcase name="run()" classname="railway.LocomotiveTest" time="0.0"/>
+  <testcase name="setDirection()" classname="railway.LocomotiveTest" time="0.0"/>
+  <testcase name="getLength()" classname="railway.LocomotiveTest" time="0.0"/>
+  <testcase name="emergencyContinue()" classname="railway.LocomotiveTest" time="0.501"/>
+  <testcase name="setLight()" classname="railway.LocomotiveTest" time="0.0"/>
+  <testcase name="getSpeedBeforeEmergency()" classname="railway.LocomotiveTest" time="0.501"/>
+  <testcase name="isEmergencyStopped()" classname="railway.LocomotiveTest" time="0.0"/>
+  <testcase name="getSpeed()" classname="railway.LocomotiveTest" time="0.0"/>
+  <testcase name="getDesiredSpeed()" classname="railway.LocomotiveTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

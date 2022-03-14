@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="railway.YBlockTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-05-18T23:06:51" hostname="LAPTOP-IDTQVOHN" time="0.011">
+  <properties/>
+  <testcase name="containsStop()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="getStopSignal()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="isStopSectorOccupied()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="setEndSignal()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="setStopSignal()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="getStartId()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="lockEndSectors()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="isTailSecurable()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="isFirstSectorOccupied()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="setStopId()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="getStopId()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="setFirstSignal()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="isLastSectorOccupied()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="setNextSwitches()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="isYBlockPossible()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="getEndSignal()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="getLastSector()" classname="railway.YBlockTest" time="0.001"/>
+  <testcase name="getStartSignal()" classname="railway.YBlockTest" time="0.0"/>
+  <testcase name="getSwitchlessLength()" classname="railway.YBlockTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

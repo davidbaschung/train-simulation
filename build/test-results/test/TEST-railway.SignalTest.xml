@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="railway.SignalTest" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-05-18T23:06:51" hostname="LAPTOP-IDTQVOHN" time="0.011">
+  <properties/>
+  <testcase name="setO2bitpos()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setR1bitpos()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setR2bitpos()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="setNumbitpos()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setAll()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="setExistsg1()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setExistsg2()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setExistso1()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setExistso2()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="setExistsr1()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setExistsr2()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="getId()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setExistsnum()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="setG1bitpos()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setG2bitpos()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="setO1bitpos()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="setShort()" classname="railway.SignalTest" time="0.001"/>
+  <testcase name="setSpeed()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="getSpeed()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setNone()" classname="railway.SignalTest" time="0.0"/>
+  <testcase name="setStop()" classname="railway.SignalTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

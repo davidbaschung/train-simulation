@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="railway.TrainTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-05-18T23:06:51" hostname="LAPTOP-IDTQVOHN" time="0.005">
+  <properties/>
+  <testcase name="startLine()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="setSignalId()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="getSignalId()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="setLoggerWindowHandler()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="getLine()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="getLocomotive()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="getLength()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="isDeleted()" classname="railway.TrainTest" time="0.001"/>
+  <testcase name="setLocomotive()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="setRoute()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="getRoute()" classname="railway.TrainTest" time="0.0"/>
+  <testcase name="setLine()" classname="railway.TrainTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="railway.BlockTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2020-05-18T23:06:41" hostname="LAPTOP-IDTQVOHN" time="0.043">
+  <properties/>
+  <testcase name="containsStop()" classname="railway.BlockTest" time="0.014"/>
+  <testcase name="getNextBlocks()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="setMaxSpeed()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="getMaxSpeed()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="addNextBlocks()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="getFirstSector()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="unlockSectors()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="getSectors()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="setEndSignal()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="getDirection()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="getStartId()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="isLocked()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="isFirstSectorOccupied()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="isOccupied()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="setStartSignal()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="setLength()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="isSecurable()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="setDirection()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="getLength()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="getSwitchPositions()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="isLastSectorOccupied()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="getCrossingTime()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="lockSectors()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="getEndSignal()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="getLastSector()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="getStartSignal()" classname="railway.BlockTest" time="0.001"/>
+  <testcase name="setSwitches()" classname="railway.BlockTest" time="0.0"/>
+  <testcase name="getEndId()" classname="railway.BlockTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,2498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE railway>
+<!--Version: 27/3/13 -->
+<railway>
+	<locomotives>
+		<locomotive id="1_Green" address="1" length="32" inertia="0"/>
+		<locomotive id="3_Red" address="3" length="25" inertia="1"/>
+		<locomotive id="4_Blue" address="4" length="25" inertia="0"/>
+		<locomotive id="5_Cargo" address="5" length="25" inertia="0"/>
+	</locomotives>
+	<trains>
+		<train id="redTrain">
+			<locomotive ref="3_Red"/>
+			<signal ref="SE2"/>
+			<line ref="FS-commuting"/>
+		</train>
+		<train id="blueTrain">
+			<locomotive ref="4_Blue"/>
+			<signal ref="C4"/>
+			<line ref="FGS-commuting"/>
+		</train>
+		<train id="greenTrain">
+			<locomotive ref="1_Green"/>
+			<signal ref="B1"/>
+			<line ref="FG-commuting"/>
+		</train>
+		<train id="cargo">
+			<locomotive ref="5_Cargo"/>
+			<signal ref="S102"/>
+			<line ref="FBL-commuting"/>
+		</train>
+	</trains>
+	<sectors>
+		<sector id="s830" address="83" bitpos="0" length="24"/>
+		<sector id="s831" address="83" bitpos="1" length="24"/>
+		<sector id="s840" address="84" bitpos="0" length="29"/>
+		<sector id="s841" address="84" bitpos="1" length="9"/>
+		<sector id="s842" address="84" bitpos="2" length="19"/>
+		<sector id="s843" address="84" bitpos="3" length="29"/>
+		<sector id="s844" address="84" bitpos="4" length="29"/>
+		<sector id="s845" address="84" bitpos="5" length="34"/>
+		<sector id="s846" address="84" bitpos="6" length="34"/>
+		<sector id="s847" address="84" bitpos="7" length="29"/>
+		<sector id="s850" address="85" bitpos="0" length="19"/>
+		<sector id="s851" address="85" bitpos="1" length="29"/>
+		<sector id="s852" address="85" bitpos="2" length="24"/>
+		<sector id="s853" address="85" bitpos="3" length="24"/>
+		<sector id="s854" address="85" bitpos="4" length="79"/>
+		<sector id="s855" address="85" bitpos="5" length="24"/>
+		<sector id="s856" address="85" bitpos="6" length="84"/>
+		<sector id="s857" address="85" bitpos="7" length="9"/>
+		<sector id="s860" address="86" bitpos="0" length="19"/>
+		<sector id="s861" address="86" bitpos="1" length="19"/>
+		<sector id="s862" address="86" bitpos="2" length="19"/>
+		<sector id="s863" address="86" bitpos="3" length="119"/>
+		<sector id="s864" address="86" bitpos="4" length="99"/>
+		<sector id="s865" address="86" bitpos="5" length="69"/>
+		<sector id="s866" address="86" bitpos="6" length="44"/>
+		<sector id="s867" address="86" bitpos="7" length="19"/>
+		<sector id="s870" address="87" bitpos="0" length="19"/>
+		<sector id="s871" address="87" bitpos="1" length="29"/>
+		<sector id="s872" address="87" bitpos="2" length="94"/>
+		<sector id="s873" address="87" bitpos="3" length="69"/>
+		<sector id="s874" address="87" bitpos="4" length="9"/>
+		<sector id="s875" address="87" bitpos="5" length="19"/>
+		<sector id="s876" address="87" bitpos="6" length="49"/>
+		<sector id="s877" address="87" bitpos="7" length="19"/>
+		<sector id="s880" address="88" bitpos="0" length="149"/>
+		<sector id="s881" address="88" bitpos="1" length="159"/>
+		<sector id="s882" address="88" bitpos="2" length="264"/>
+		<sector id="s883" address="88" bitpos="3" length="199"/>
+		<sector id="s884" address="88" bitpos="4" length="19"/>
+		<sector id="s885" address="88" bitpos="5" length="19"/>
+		<sector id="s886" address="88" bitpos="6" length="44"/>
+		<sector id="s887" address="88" bitpos="7" length="44"/>
+		<sector id="s890" address="89" bitpos="0" length="44"/>
+		<sector id="s891" address="89" bitpos="1" length="44"/>
+		<sector id="s892" address="89" bitpos="2" length="19"/>
+		<sector id="s893" address="89" bitpos="3" length="19"/>
+		<sector id="s894" address="89" bitpos="4" length="159"/>
+		<sector id="s895" address="89" bitpos="5" length="164"/>
+		<sector id="s896" address="89" bitpos="6" length="19"/>
+		<sector id="s897" address="89" bitpos="7" length="24"/>
+		<sector id="s940" address="94" bitpos="0" length="24"/>
+		<sector id="s941" address="94" bitpos="1" length="19"/>
+		<sector id="s942" address="94" bitpos="2" length="19"/>
+		<sector id="s943" address="94" bitpos="3" length="214"/>
+		<sector id="s944" address="94" bitpos="4" length="229"/>
+		<sector id="s945" address="94" bitpos="5" length="219"/>
+		<sector id="s946" address="94" bitpos="6" length="5"/>
+		<sector id="s947" address="94" bitpos="7" length="5"/>
+		<sector id="s950" address="95" bitpos="0" length="9"/>
+		<sector id="s951" address="95" bitpos="1" length="19"/>
+		<sector id="s952" address="95" bitpos="2" length="74"/>
+		<sector id="s953" address="95" bitpos="3" length="19"/>
+		<sector id="s954" address="95" bitpos="4" length="59"/>
+		<sector id="s955" address="95" bitpos="5" length="24"/>
+		<sector id="s956" address="95" bitpos="6" length="5"/>
+		<sector id="s957" address="95" bitpos="7" length="5"/>
+		<sector id="s960" address="96" bitpos="0" length="19"/>
+		<sector id="s961" address="96" bitpos="1" length="9"/>
+		<sector id="s962" address="96" bitpos="2" length="19"/>
+		<sector id="s963" address="96" bitpos="3" length="34"/>
+		<sector id="s964" address="96" bitpos="4" length="24"/>
+		<sector id="s965" address="96" bitpos="5" length="24"/>
+		<sector id="s966" address="96" bitpos="6" length="49"/>
+		<sector id="s967" address="96" bitpos="7" length="44"/>
+		<sector id="s970" address="97" bitpos="0" length="19"/>
+		<sector id="s971" address="97" bitpos="1" length="89"/>
+		<sector id="s972" address="97" bitpos="2" length="19"/>
+		<sector id="s973" address="97" bitpos="3" length="139"/>
+		<sector id="s974" address="97" bitpos="4" length="114"/>
+		<sector id="s975" address="97" bitpos="5" length="89"/>
+		<sector id="s976" address="97" bitpos="6" length="24"/>
+		<sector id="s977" address="97" bitpos="7" length="5"/>
+		<sector id="s980" address="98" bitpos="0" length="144"/>
+		<sector id="s981" address="98" bitpos="1" length="119"/>
+		<sector id="s982" address="98" bitpos="2" length="19"/>
+		<sector id="s983" address="98" bitpos="3" length="19"/>
+		<sector id="s984" address="98" bitpos="4" length="5"/>
+		<sector id="s985" address="98" bitpos="5" length="19"/>
+		<sector id="s986" address="98" bitpos="6" length="19"/>
+		<sector id="s987" address="98" bitpos="7" length="19"/>
+		<sector id="s990" address="99" bitpos="0" length="24"/>
+		<sector id="s991" address="99" bitpos="1" length="54"/>
+		<sector id="s992" address="99" bitpos="2" length="19"/>
+		<sector id="s993" address="99" bitpos="3" length="5"/>
+		<sector id="s994" address="99" bitpos="4" length="29"/>
+		<sector id="s995" address="99" bitpos="5" length="29"/>
+		<sector id="s996" address="99" bitpos="6" length="24"/>
+		<sector id="s997" address="99" bitpos="7" length="69"/>
+		<sector id="s1000" address="100" bitpos="0" length="69"/>
+		<sector id="s1001" address="100" bitpos="1" length="64"/>
+		<sector id="s1002" address="100" bitpos="2" length="94"/>
+		<sector id="s1003" address="100" bitpos="3" length="19"/>
+		<sector id="s1004" address="100" bitpos="4" length="44"/>
+		<sector id="s1005" address="100" bitpos="5" length="19"/>
+		<sector id="s1006" address="100" bitpos="6" length="44"/>
+		<sector id="s1007" address="100" bitpos="7" length="24"/>
+		<sector id="s1010" address="101" bitpos="0" length="29"/>
+		<sector id="s1011" address="101" bitpos="1" length="19"/>
+		<sector id="s1012" address="101" bitpos="2" length="19"/>
+		<sector id="s1013" address="101" bitpos="3" length="24"/>
+		<sector id="s1014" address="101" bitpos="4" length="24"/>
+		<sector id="s1015" address="101" bitpos="5" length="154"/>
+		<sector id="s1016" address="101" bitpos="6" length="169"/>
+		<sector id="s1017" address="101" bitpos="7" length="149"/>
+		<sector id="s1020" address="102" bitpos="0" length="24"/>
+		<sector id="s1021" address="102" bitpos="1" length="24"/>
+		<sector id="s1022" address="102" bitpos="2" length="34"/>
+		<sector id="s1023" address="102" bitpos="3" length="24"/>
+		<sector id="s1024" address="102" bitpos="4" length="14"/>
+		<sector id="s1025" address="102" bitpos="5" length="74"/>
+		<sector id="s1026" address="102" bitpos="6" length="34"/>
+		<sector id="s1027" address="102" bitpos="7" length="44"/>
+		<sector id="s1030" address="103" bitpos="0" length="44"/>
+		<sector id="s1031" address="103" bitpos="1" length="24"/>
+		<sector id="s1032" address="103" bitpos="2" length="44"/>
+		<sector id="s1033" address="103" bitpos="3" length="14"/>
+		<sector id="s1034" address="103" bitpos="4" length="19"/>
+		<sector id="s1035" address="103" bitpos="5" length="39"/>
+		<sector id="s1036" address="103" bitpos="6" length="29"/>
+		<sector id="s1037" address="103" bitpos="7" length="129"/>
+	</sectors>
+	<switches>
+		<switch id="swB01" sector="s891" address="80" bitpos="0"/>
+		<switch id="swB02" sector="s890" address="80" bitpos="1"/>
+		<switch id="swB03" sector="s887" address="80" bitpos="2"/>
+		<switch id="swB04" sector="s886" address="80" bitpos="3"/>
+		<switch id="swG01" sector="s876" address="82" bitpos="0"/>
+		<switch id="swG02" sector="s871" address="82" bitpos="1"/>
+		<switch id="swG03" sector="s844" address="82" bitpos="2"/>
+		<switch id="swG04" sector="s842" address="82" bitpos="3"/>
+		<switch id="swL01" sector="s873" address="82" bitpos="4"/>
+		<switch id="swL02" sector="s872" address="82" bitpos="5"/>
+		<switch id="swL03" sector="s866" address="82" bitpos="6"/>
+		<switch id="swL04" sector="s865" address="82" bitpos="7"/>
+		<switch id="swS01" sector="s851" address="81" bitpos="1"/>
+		<switch id="swS02" sector="s851" address="81" bitpos="0"/>
+		<switch id="swS03" sector="s851" address="81" bitpos="2"/>
+		<switch id="swS04" sector="s846" address="81" bitpos="3"/>
+		<switch id="swS05" sector="s847" address="81" bitpos="4"/>
+		<switch id="swS06" sector="s846" address="81" bitpos="5"/>
+		<!-- bitpos 6 and 7 for weird jumping blocks -->
+		<switch id="swF01" sector="s1024" address="92" bitpos="0"/>
+		<switch id="swF02" sector="s1027" address="92" bitpos="1"/>
+		<switch id="swF03" sector="s1027" address="92" bitpos="2"/>
+		<switch id="swF04" sector="s1031" address="92" bitpos="3"/>
+		<switch id="swF05" sector="s1031" address="92" bitpos="4"/>
+		<switch id="swF06" sector="s1032" address="92" bitpos="5"/>
+		<switch id="swF07" sector="s1001" address="92" bitpos="6"/> <!-- 6 ? à vérifier -->
+		<switch id="swF08" sector="s1035" address="92" bitpos="7"/>
+		<switch id="swF09" sector="s1036" address="93" bitpos="0"/>
+		<switch id="swF10" sector="s1003" address="93" bitpos="1"/>
+		<switch id="swF11" sector="s1005" address="93" bitpos="2"/>
+		<switch id="swF12" sector="s1005" address="93" bitpos="3"/>
+		<switch id="swF13" sector="s1007" address="93" bitpos="4"/>
+		<switch id="swF14" sector="s1004" address="93" bitpos="5"/>
+		<switch id="swF15" sector="s1006" address="93" bitpos="6"/>
+		<switch id="swF16" sector="s983" address="93" bitpos="7"/>
+		<switch id="swF17" sector="s983" address="90" bitpos="0"/>
+		<switch id="swF18" sector="s990" address="90" bitpos="1"/>
+		<switch id="swF19" sector="s990" address="90" bitpos="2"/>
+		<switch id="swF20" sector="s996" address="90" bitpos="3"/>
+		<switch id="swF21" sector="s962" address="90" bitpos="4"/>
+		<switch id="swF22" sector="s965" address="90" bitpos="5"/>
+		<switch id="swF23" sector="s991" address="90" bitpos="6"/>
+		<switch id="swF24" sector="s991" address="90" bitpos="7"/>
+		<switch id="swF25" sector="s994" address="91" bitpos="0"/>
+		<switch id="swF26" sector="s994" address="91" bitpos="1"/>
+		<switch id="swF27" sector="s995" address="91" bitpos="2"/>
+		<switch id="swF28" sector="s964" address="91" bitpos="3"/>
+		<switch id="swF29" sector="s964" address="91" bitpos="4"/>
+		<switch id="swF30" sector="s963" address="91" bitpos="5"/>
+		<switch id="swF31" sector="s970" address="91" bitpos="6"/>
+		<switch id="swF32" sector="s976" address="91" bitpos="7"/>
+	</switches>
+	<blocks>
+
+
+		<!--______________SCHWARZEE__________-->
+
+		<block id="bD401_SE1" start="D401" end="SE1" dir="0" desc="Schwarzsee Incoming on Platform 1" length="20"
+		       speed="60">
+			<sector ref="s845"/>
+			<sector ref="s846"/>
+			<sector ref="s847"/>
+			<sector ref="s852"/>
+			<sector ref="s856"/>
+			<sector ref="s954"/>
+			<switch-position ref="swS06" pos="1"/>
+			<switch-position ref="swS05" pos="1"/>
+		</block>
+		<block id="bD401_SE2" start="D401" end="SE2" dir="0" desc="Schwarzsee Incoming on Platform 2" length="20"
+		       speed="60">
+			<sector ref="s845"/>
+			<sector ref="s846"/>
+			<sector ref="s850"/>
+			<sector ref="s854"/>
+			<sector ref="s951"/>
+			<sector ref="s953"/>
+			<sector ref="s955"/>
+			<switch-position ref="swS06" pos="0"/>
+			<switch-position ref="swS04" pos="1"/>
+			<!--switch-position ref="swS01" pos="0"/-->
+		</block>
+		<block id="bD401_SE3" start="D401" end="SE3" dir="0" desc="Schwarzsee Incoming on Platform 3" length="20"
+		       speed="60">
+			<sector ref="s845"/>
+			<sector ref="s846"/>
+			<sector ref="s851"/>
+			<sector ref="s853"/>
+			<sector ref="s855"/>
+			<sector ref="s857"/>
+			<sector ref="s950"/>
+			<sector ref="s952"/>
+			<switch-position ref="swS06" pos="0"/>
+			<switch-position ref="swS04" pos="0"/>
+			<switch-position ref="swS03" pos="0"/>
+			<!-- these switches are disabled to allow trains to stop on them -->
+			<!--switch-position ref="swS02" pos="1"/-->
+			<!--switch-position ref="swS01" pos="0"/-->
+		</block>
+		<block id="bSW1_C" start="SW1" end="C" dir="1" desc="Schwarzsee Outgoing from Platform 1" length="25"
+		       speed="90">
+			<sector ref="s954"/>
+			<sector ref="s856"/>
+			<sector ref="s852"/>
+			<sector ref="s847"/>
+			<sector ref="s846"/>
+			<switch-position ref="swS06" pos="1"/>
+			<switch-position ref="swS05" pos="1"/>
+		</block>
+		<block id="bSW2_C" start="SW2" end="C" dir="1" desc="Schwarzsee Outgoing from Platform 2" length="25"
+		       speed="90">
+			<sector ref="s955"/>
+			<sector ref="s953"/>
+			<sector ref="s951"/>
+			<sector ref="s854"/>
+			<sector ref="s850"/>
+			<sector ref="s846"/>
+			<switch-position ref="swS06" pos="0"/>
+			<switch-position ref="swS04" pos="1"/>
+		</block>
+		<block id="bSW3_C" start="SW3" end="C" dir="1" desc="Schwarzsee Outgoing from Platform 3" length="25"
+		       speed="90">
+			<sector ref="s952"/>
+			<sector ref="s950"/>
+			<sector ref="s857"/>
+			<sector ref="s855"/>
+			<sector ref="s853"/>
+			<sector ref="s851"/>
+			<sector ref="s846"/>
+			<switch-position ref="swS03" pos="0"/>
+			<switch-position ref="swS06" pos="0"/>
+			<switch-position ref="swS04" pos="0"/>
+		</block>
+		<block id="bC_A401" start="C" end="A401" dir="1" desc="Schwarzsee-Fribourg from Platform 1" length="25"
+		       speed="90">
+			<sector ref="s845"/>
+			<sector ref="s896"/>
+			<sector ref="s883"/>
+			<sector ref="s1023"/>
+		</block>
+
+
+		<!--__________________FRIBOURG WEST INCOMING____________________-->
+
+		<!-- PLATFORM 1 -->
+		<block id="bA401_D1" start="A401" end="D1" dir="1" desc="Fribourg from West Incoming on Platform 1" length="30"
+		       speed="60">
+			<sector ref="s1025"/>
+			<sector ref="s1032"/>
+			<sector ref="s1002"/>
+			<sector ref="s1014"/>
+			<sector ref="s980"/>
+			<sector ref="s984"/>
+			<switch-position ref="swF06" pos="1"/>
+		</block>
+
+		<!-- PLATFORM 2 -->
+		<block id="bA401_D2" start="A401" end="D2" dir="1"
+		       desc="Fribourg from West from Schwarzsee Incoming on Platform 2" length="30" speed="60">
+			<sector ref="s1025"/>
+			<sector ref="s1032"/>
+			<sector ref="s1001"/>
+			<sector ref="s1004"/>
+			<sector ref="s1013"/>
+			<sector ref="s981"/>
+			<sector ref="s982"/>
+			<switch-position ref="swF06" pos="0"/>
+			<switch-position ref="swF07" pos="0"/>
+			<switch-position ref="swF14" pos="1"/>
+		</block>
+		<block id="bA302_D2" start="A302" end="D2" dir="1" desc="Fribourg from West from Gruyere Incoming on Platform 2"
+		       length="30" speed="60">
+			<sector ref="s1026"/>
+			<sector ref="s1031"/>
+			<sector ref="s1033"/>
+			<sector ref="s1001"/>
+			<sector ref="s1004"/>
+			<sector ref="s1013"/>
+			<sector ref="s981"/>
+			<sector ref="s982"/>
+			<switch-position ref="swF04" pos="1"/>
+			<switch-position ref="swF05" pos="0"/>
+			<switch-position ref="swF07" pos="1"/>
+			<switch-position ref="swF14" pos="1"/>
+		</block>
+		<block id="bA103_D2" start="A103" end="D2" dir="1"
+		       desc="Fribourg from West from Broye Lefthand Incoming on Platform 2" length="30" speed="60">
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s1033"/>
+			<sector ref="s1001"/>
+			<sector ref="s1004"/>
+			<sector ref="s1013"/>
+			<sector ref="s981"/>
+			<sector ref="s982"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF04" pos="1"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF07" pos="1"/>
+			<switch-position ref="swF14" pos="1"/>
+		</block>
+		<block id="bA203_D2" start="A203" end="D2" dir="1"
+		       desc="Fribourg from West from Broye Righthand Incoming on Platform 2" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s1033"/>
+			<sector ref="s1001"/>
+			<sector ref="s1004"/>
+			<sector ref="s1013"/>
+			<sector ref="s981"/>
+			<sector ref="s982"/>
+			<switch-position ref="swF01" pos="1"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF04" pos="1"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF07" pos="1"/>
+			<switch-position ref="swF14" pos="1"/>
+		</block>
+
+		<!-- PLATFORM 3 -->
+		<block id="bA401_D3" start="A401" end="D3" dir="1"
+		       desc="Fribourg from West from Schwarzsee Incoming on Platform 3" length="30" speed="60">
+			<sector ref="s1025"/>
+			<sector ref="s1032"/>
+			<sector ref="s1001"/>
+			<sector ref="s1004"/>
+			<sector ref="s1006"/>
+			<sector ref="s1012"/>
+			<sector ref="s1017"/>
+			<sector ref="s985"/>
+			<switch-position ref="swF06" pos="0"/>
+			<switch-position ref="swF07" pos="0"/>
+			<switch-position ref="swF14" pos="0"/>
+			<switch-position ref="swF15" pos="0"/>
+		</block>
+		<block id="bA302_D3" start="A302" end="D3" dir="1" desc="Fribourg from West from Gruyere Incoming on Platform 3"
+		       length="30" speed="60">
+			<sector ref="s1026"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1006"/>
+			<sector ref="s1012"/>
+			<sector ref="s1017"/>
+			<sector ref="s985"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="0"/>
+			<switch-position ref="swF10" pos="1"/>
+			<switch-position ref="swF15" pos="1"/>
+		</block>
+		<block id="bA103_D3" start="A103" end="D3" dir="1" desc="Fribourg from Broye Lefthand Incoming on Platform 3"
+		       length="30" speed="60">
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1006"/>
+			<sector ref="s1012"/>
+			<sector ref="s1017"/>
+			<sector ref="s985"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF10" pos="1"/>
+			<switch-position ref="swF15" pos="1"/>
+		</block>
+		<block id="bA203_D3_1" start="A203" end="D3" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 3 variant 1" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1006"/>
+			<sector ref="s1012"/>
+			<sector ref="s1017"/>
+			<sector ref="s985"/>
+			<switch-position ref="swF01" pos="1"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF10" pos="1"/>
+			<switch-position ref="swF15" pos="1"/>
+		</block>
+		<block id="bA203_D3_2" start="A203" end="D3" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 3 variant 2" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s1033"/>
+			<sector ref="s1001"/>
+			<sector ref="s1004"/>
+			<sector ref="s1006"/>
+			<sector ref="s1012"/>
+			<sector ref="s1017"/>
+			<sector ref="s985"/>
+			<switch-position ref="swF01" pos="1"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF04" pos="1"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF07" pos="1"/>
+			<switch-position ref="swF14" pos="0"/>
+		</block>
+
+		<!-- PLATFORM 4 -->
+		<block id="bA302_D4" start="A302" end="D4" dir="1" desc="Fribourg from West from Gruyere Incoming on Platform 4"
+		       length="30" speed="60">
+			<sector ref="s1026"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1005"/>
+			<sector ref="s1010"/>
+			<sector ref="s1016"/>
+			<sector ref="s987"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="0"/>
+			<switch-position ref="swF10" pos="0"/>
+			<switch-position ref="swF12" pos="1"/>
+			<switch-position ref="swF11" pos="0"/>
+		</block>
+		<block id="bA103_D4_1" start="A103" end="D4" dir="1"
+		       desc="Fribourg from Broye Lefthand Incoming on Platform 4 variant 1" length="30" speed="60">
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1005"/>
+			<sector ref="s1010"/>
+			<sector ref="s1016"/>
+			<sector ref="s987"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF10" pos="0"/>
+			<switch-position ref="swF11" pos="0"/>
+			<switch-position ref="swF12" pos="1"/>
+		</block>
+		<block id="bA103_D4_2" start="A103" end="D4" dir="1"
+		       desc="Fribourg from Broye Lefthand Incoming on Platform 4 variant 2" length="30" speed="60">
+			<sector ref="s1027"/>
+			<sector ref="s1034"/>
+			<sector ref="s1036"/>
+			<sector ref="s1005"/>
+			<sector ref="s1010"/>
+			<sector ref="s1016"/>
+			<sector ref="s987"/>
+			<switch-position ref="swF03" pos="0"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF09" pos="0"/>
+			<switch-position ref="swF11" pos="1"/>
+			<switch-position ref="swF12" pos="1"/>
+		</block>
+		<block id="bA203_D4_1" start="A203" end="D4" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 4 variant 1" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1005"/>
+			<sector ref="s1010"/>
+			<sector ref="s1016"/>
+			<sector ref="s987"/>
+			<switch-position ref="swF01" pos="1"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF10" pos="0"/>
+			<switch-position ref="swF12" pos="1"/>
+			<switch-position ref="swF11" pos="0"/>
+		</block>
+		<block id="bA203_D4_2" start="A203" end="D4" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 4 variant 2" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1027"/>
+			<sector ref="s1034"/>
+			<sector ref="s1036"/>
+			<sector ref="s1005"/>
+			<sector ref="s1010"/>
+			<sector ref="s1016"/>
+			<sector ref="s987"/>
+			<switch-position ref="swF01" pos="1"/>
+			<switch-position ref="swF03" pos="0"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF09" pos="0"/>
+			<switch-position ref="swF12" pos="1"/>
+			<switch-position ref="swF11" pos="1"/>
+		</block>
+		<block id="bA203_D4_3" start="A203" end="D4" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 4 variant 3" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1030"/>
+			<sector ref="s1035"/>
+			<sector ref="s1036"/>
+			<sector ref="s1005"/>
+			<sector ref="s1010"/>
+			<sector ref="s1016"/>
+			<sector ref="s987"/>
+			<switch-position ref="swF01" pos="0"/>
+			<switch-position ref="swF08" pos="1"/>
+			<switch-position ref="swF09" pos="1"/>
+			<switch-position ref="swF12" pos="1"/>
+			<switch-position ref="swF11" pos="1"/>
+		</block>
+
+		<!-- PLATFORM 5 -->
+		<block id="bA302_D5" start="A302" end="D5" dir="1" desc="Fribourg from West from Gruyere Incoming on Platform 5"
+		       length="30" speed="60">
+			<sector ref="s1026"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1005"/>
+			<sector ref="s1007"/>
+			<sector ref="s1011"/>
+			<sector ref="s1015"/>
+			<sector ref="s986"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="0"/>
+			<switch-position ref="swF10" pos="0"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF11" pos="0"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bA103_D5_1" start="A103" end="D5" dir="1"
+		       desc="Fribourg from Broye Lefthand Incoming on Platform 5 variant 1" length="30" speed="60">
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1005"/>
+			<sector ref="s1007"/>
+			<sector ref="s1011"/>
+			<sector ref="s1015"/>
+			<sector ref="s986"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF10" pos="0"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF11" pos="0"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bA103_D5_2" start="A103" end="D5" dir="1"
+		       desc="Fribourg from Broye Lefthand Incoming on Platform 5 variant 2" length="30" speed="60">
+			<sector ref="s1027"/>
+			<sector ref="s1034"/>
+			<sector ref="s1036"/>
+			<sector ref="s1005"/>
+			<sector ref="s1007"/>
+			<sector ref="s1011"/>
+			<sector ref="s1015"/>
+			<sector ref="s986"/>
+			<switch-position ref="swF03" pos="0"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF09" pos="0"/>
+			<switch-position ref="swF11" pos="1"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bA203_D5_1" start="A203" end="D5" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 5 variant 1" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1027"/>
+			<sector ref="s1031"/>
+			<sector ref="s897"/>
+			<sector ref="s1000"/>
+			<sector ref="s1003"/>
+			<sector ref="s1005"/>
+			<sector ref="s1007"/>
+			<sector ref="s1011"/>
+			<sector ref="s1015"/>
+			<sector ref="s986"/>
+			<switch-position ref="swF01" pos="1"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF10" pos="0"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF11" pos="0"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bA203_D5_2" start="A203" end="D5" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 5 variant 2" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1027"/>
+			<sector ref="s1034"/>
+			<sector ref="s1036"/>
+			<sector ref="s1005"/>
+			<sector ref="s1007"/>
+			<sector ref="s1011"/>
+			<sector ref="s1015"/>
+			<sector ref="s986"/>
+			<switch-position ref="swF01" pos="1"/>
+			<switch-position ref="swF03" pos="0"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF09" pos="0"/>
+			<switch-position ref="swF11" pos="1"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bA203_D5_3" start="A203" end="D5" dir="1"
+		       desc="Fribourg from Broye Righthand Incoming on Platform 5 variant 3" length="30" speed="60">
+			<sector ref="s1024"/>
+			<sector ref="s1030"/>
+			<sector ref="s1035"/>
+			<sector ref="s1037"/>
+			<sector ref="s1007"/>
+			<sector ref="s1011"/>
+			<sector ref="s1015"/>
+			<sector ref="s986"/>
+			<switch-position ref="swF01" pos="0"/>
+			<switch-position ref="swF08" pos="0"/>
+			<switch-position ref="swF13" pos="1"/>
+		</block>
+
+
+		<!--__________________FRIBOURG WESTWARD OUTGOING_____________________-->
+
+		<block id="bC1_B21" start="C1" end="B21" dir="0" desc="Fribourg Westward Outgoing from Platform 1" length="25"
+		       speed="90">
+			<sector ref="s1002"/>
+			<sector ref="s1032"/>
+			<switch-position ref="swF06" pos="1"/>
+		</block>
+		<block id="bC2_B21" start="C2" end="B21" dir="0" desc="Fribourg Westward to B21 Outgoing from Platform 2"
+		       length="25" speed="90">
+			<sector ref="s1004"/>
+			<sector ref="s1001"/>
+			<sector ref="s1032"/>
+			<switch-position ref="swF14" pos="1"/>
+			<switch-position ref="swF07" pos="0"/>
+			<switch-position ref="swF06" pos="0"/>
+		</block>
+		<block id="bC2_B22" start="C2" end="B22" dir="0" desc="Fribourg Westward to B22 Outgoing from Platform 2"
+		       length="25" speed="90">
+			<sector ref="s1004"/>
+			<sector ref="s1001"/>
+			<sector ref="s1033"/>
+			<switch-position ref="swF14" pos="1"/>
+			<switch-position ref="swF07" pos="1"/>
+			<!--switch-position ref="swF06" pos="0"/-->
+		</block>
+		<block id="bC3_B21" start="C3" end="B21" dir="0" desc="Fribourg Westward Outgoing to B21 from Platform 3"
+		       length="10" speed="90">
+			<sector ref="s1006"/>
+			<sector ref="s1004"/>
+			<sector ref="s1001"/>
+			<sector ref="s1032"/>
+			<switch-position ref="swF15" pos="0"/>
+			<switch-position ref="swF14" pos="0"/>
+			<switch-position ref="swF07" pos="0"/>
+			<switch-position ref="swF06" pos="0"/>
+		</block>
+		<block id="bC3_B22" start="C3" end="B22" dir="0" desc="Fribourg Westward Outgoing to B22 from Platform 3"
+		       length="10" speed="90">
+			<sector ref="s1006"/>
+			<sector ref="s1004"/>
+			<sector ref="s1001"/>
+			<sector ref="s1033"/>
+			<switch-position ref="swF15" pos="0"/>
+			<switch-position ref="swF14" pos="0"/>
+			<switch-position ref="swF07" pos="1"/>
+		</block>
+		<block id="bC3_B23" start="C3" end="B23" dir="0" desc="Fribourg Westward Outgoing to B23 from Platform 3"
+		       length="10" speed="90">
+			<sector ref="s1006"/>
+			<sector ref="s1003"/>
+			<sector ref="s1000"/>
+			<sector ref="s897"/>
+			<switch-position ref="swF15" pos="1"/>
+			<switch-position ref="swF10" pos="1"/>
+		</block>
+		<block id="bC4_B23" start="C4" end="B23" dir="0" desc="Fribourg Westward Outgoing to B23 from Platform 4"
+		       length="10" speed="90">
+			<sector ref="s1005"/>
+			<sector ref="s1003"/>
+			<sector ref="s1000"/>
+			<sector ref="s897"/>
+			<switch-position ref="swF11" pos="0"/>
+			<switch-position ref="swF12" pos="1"/>
+			<switch-position ref="swF10" pos="0"/>
+		</block>
+		<block id="bC4_B24" start="C4" end="B24" dir="0" desc="Fribourg Westward Outgoing to B24 from Platform 4"
+		       length="10" speed="90">
+			<sector ref="s1005"/>
+			<sector ref="s1036"/>
+			<sector ref="s1034"/>
+			<switch-position ref="swF11" pos="1"/>
+			<switch-position ref="swF12" pos="1"/>
+			<switch-position ref="swF09" pos="0"/>
+		</block>
+		<block id="bC4_B25" start="C4" end="B25" dir="0" desc="Fribourg Westward Outgoing to B25 from Platform 4"
+		       length="10" speed="90">
+			<sector ref="s1005"/>
+			<sector ref="s1036"/>
+			<sector ref="s1035"/>
+			<switch-position ref="swF11" pos="1"/>
+			<switch-position ref="swF12" pos="1"/>
+			<switch-position ref="swF09" pos="1"/>
+			<switch-position ref="swF08" pos="1"/>
+		</block>
+		<block id="bC5_B23" start="C5" end="B23" dir="0" desc="Fribourg Westward Outgoing to B23 from Platform 5"
+		       length="10" speed="90">
+			<sector ref="s1007"/>
+			<sector ref="s1005"/>
+			<sector ref="s1003"/>
+			<sector ref="s1000"/>
+			<sector ref="s897"/>
+			<switch-position ref="swF11" pos="0"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF10" pos="0"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bC5_B24" start="C5" end="B24" dir="0" desc="Fribourg Westward Outgoing to B24 from Platform 5"
+		       length="10" speed="90">
+			<sector ref="s1007"/>
+			<sector ref="s1005"/>
+			<sector ref="s1036"/>
+			<sector ref="s1034"/>
+			<switch-position ref="swF11" pos="1"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF09" pos="0"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bC5_B25_1" start="C5" end="B25" dir="0"
+		       desc="Fribourg Westward Outgoing to B25 from Platform 5 variant 1" length="10" speed="90">
+			<sector ref="s1007"/>
+			<sector ref="s1005"/>
+			<sector ref="s1036"/>
+			<sector ref="s1035"/>
+			<switch-position ref="swF11" pos="1"/>
+			<switch-position ref="swF12" pos="0"/>
+			<switch-position ref="swF09" pos="1"/>
+			<switch-position ref="swF08" pos="1"/>
+			<switch-position ref="swF13" pos="0"/>
+		</block>
+		<block id="bC5_B25_2" start="C5" end="B25" dir="0"
+		       desc="Fribourg Westward Outgoing to B25 from Platform 5 variant 2" length="10" speed="90">
+			<sector ref="s1007"/>
+			<sector ref="s1037"/>
+			<sector ref="s1035"/>
+			<switch-position ref="swF13" pos="1"/>
+			<switch-position ref="swF08" pos="0"/>
+		</block>
+
+
+		<!--___________FRIBOURG - SCHWARZSEE_____________-->
+		<block id="bB21_D401" start="B21" end="D401" dir="0" desc="Fribourg - Schwarzsee link" length="10" speed="90">
+			<sector ref="s1025"/>
+			<sector ref="s1023"/>
+			<sector ref="s883"/>
+			<sector ref="s896"/>
+		</block>
+
+
+		<!--___________________FRIBOURG FROM EAST INCOMING_______________-->
+
+		<block id="bPark1R_C1" start="Park1R" end="C1" dir="0"
+		       desc="Fribourg from East Incoming to signal Platform 1 from Park 1" length="20" speed="60">
+			<sector ref="s977"/>
+			<sector ref="s993"/>
+			<sector ref="s990"/>
+			<sector ref="s984"/>
+			<sector ref="s980"/>
+			<sector ref="s1014"/>
+			<switch-position ref="swF18" pos="1"/>
+			<switch-position ref="swF19" pos="0"/>
+		</block>
+		<block id="bPark2R_C1" start="Park2R" end="C1" dir="0"
+		       desc="Fribourg from East Incoming to Platform 1 from Park 2" length="20" speed="60">
+			<sector ref="s946"/>
+			<sector ref="s973"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s984"/>
+			<sector ref="s980"/>
+			<sector ref="s1014"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="1"/>
+		</block>
+		<block id="bPark3R_C1" start="Park3R" end="C1" dir="0"
+		       desc="Fribourg from East Incoming to Platform 1 from Park 3" length="20" speed="60">
+			<sector ref="s947"/>
+			<sector ref="s974"/>
+			<sector ref="s962"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s984"/>
+			<sector ref="s980"/>
+			<sector ref="s1014"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="1"/>
+		</block>
+		<block id="bPark4R_C1" start="Park4R" end="C1" dir="0"
+		       desc="Fribourg from East Incoming to Platform 1 from Park 4" length="20" speed="60">
+			<sector ref="s957"/>
+			<sector ref="s975"/>
+			<sector ref="s965"/>
+			<sector ref="s962"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s984"/>
+			<sector ref="s980"/>
+			<sector ref="s1014"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="1"/>
+		</block>
+		<block id="bPark5R_C1" start="Park5R" end="C1" dir="0"
+		       desc="Fribourg from East Incoming to Platform 1 from Park 5" length="20" speed="60">
+			<sector ref="s956"/>
+			<sector ref="s971"/>
+			<sector ref="s965"/>
+			<sector ref="s962"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s984"/>
+			<sector ref="s980"/>
+			<sector ref="s1014"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="0"/>
+		</block>
+
+
+		<!--PLATFORM 2-->
+		<block id="bG101_C2" start="G101" end="C2" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Righthand on Platform 2" length="20" speed="60">
+			<sector ref="s976"/>
+			<sector ref="s972"/>
+			<sector ref="s997"/>
+			<sector ref="s992"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF32" pos="0"/>
+			<switch-position ref="swF17" pos="1"/>
+			<switch-position ref="swF16" pos="0"/>
+		</block>
+		<block id="bG201_C2" start="G201" end="C2" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Lefthand on Platform 2" length="20" speed="60">
+			<sector ref="s967"/>
+			<sector ref="s964"/>
+			<sector ref="s994"/>
+			<sector ref="s991"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF29" pos="0"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF26" pos="0"/>
+			<switch-position ref="swF25" pos="1"/>
+			<switch-position ref="swF24" pos="0"/>
+			<switch-position ref="swF23" pos="0"/>
+			<switch-position ref="swF17" pos="0"/>
+			<switch-position ref="swF16" pos="0"/>
+		</block>
+		<block id="bG301_C2" start="G301" end="C2" dir="0" desc="Fribourg from East Incoming from Gruyere on Platform 2"
+		       length="20" speed="60">
+			<sector ref="s966"/>
+			<sector ref="s963"/>
+			<sector ref="s961"/>
+			<sector ref="s994"/>
+			<sector ref="s991"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF30" pos="0"/>
+			<switch-position ref="swF26" pos="0"/>
+			<switch-position ref="swF25" pos="0"/>
+			<switch-position ref="swF24" pos="0"/>
+			<switch-position ref="swF23" pos="0"/>
+			<switch-position ref="swF17" pos="0"/>
+			<switch-position ref="swF16" pos="0"/>
+		</block>
+		<block id="bPark1R_C2" start="Park1R" end="C2" dir="0"
+		       desc="Fribourg from East Incoming to signal Platform 2 from Park 1" length="20" speed="60">
+			<sector ref="s977"/>
+			<sector ref="s993"/>
+			<sector ref="s990"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF18" pos="1"/>
+			<switch-position ref="swF16" pos="1"/>
+		</block>
+		<block id="bPark2R_C2" start="Park2R" end="C2" dir="0"
+		       desc="Fribourg from East Incoming to Platform 2 from Park 2" length="20" speed="60">
+			<sector ref="s946"/>
+			<sector ref="s973"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="1"/>
+			<switch-position ref="swF16" pos="1"/>
+		</block>
+		<block id="bPark3R_C2" start="Park3R" end="C2" dir="0"
+		       desc="Fribourg from East Incoming to Platform 2 from Park 3" length="20" speed="60">
+			<sector ref="s947"/>
+			<sector ref="s974"/>
+			<sector ref="s962"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="1"/>
+			<switch-position ref="swF16" pos="1"/>
+		</block>
+		<block id="bPark4R_C2" start="Park4R" end="C2" dir="0"
+		       desc="Fribourg from East Incoming to Platform 2 from Park 4" length="20" speed="60">
+			<sector ref="s957"/>
+			<sector ref="s975"/>
+			<sector ref="s965"/>
+			<sector ref="s962"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="1"/>
+			<switch-position ref="swF16" pos="1"/>
+		</block>
+		<block id="bPark5R_C2" start="Park5R" end="C2" dir="0"
+		       desc="Fribourg from East Incoming to Platform 2 from Park 5" length="20" speed="60">
+			<sector ref="s956"/>
+			<sector ref="s971"/>
+			<sector ref="s965"/>
+			<sector ref="s962"/>
+			<sector ref="s996"/>
+			<sector ref="s990"/>
+			<sector ref="s983"/>
+			<sector ref="s982"/>
+			<sector ref="s981"/>
+			<sector ref="s1013"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="0"/>
+			<switch-position ref="swF16" pos="1"/>
+		</block>
+
+
+		<!--PLATFORM 3-->
+		<block id="bG101_C3" start="G101" end="C3" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Righthand on Platform 3" length="20" speed="60">
+			<sector ref="s976"/>
+			<sector ref="s970"/>
+			<sector ref="s960"/>
+			<sector ref="s991"/>
+			<sector ref="s985"/>
+			<sector ref="s1017"/>
+			<sector ref="s1012"/>
+			<switch-position ref="swF32" pos="1"/>
+			<switch-position ref="swF31" pos="0"/>
+			<switch-position ref="swF24" pos="1"/>
+			<switch-position ref="swF23" pos="1"/>
+		</block>
+		<block id="bG201_C3" start="G201" end="C3" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Lefthand on Platform 3" length="20" speed="60">
+			<sector ref="s967"/>
+			<sector ref="s964"/>
+			<sector ref="s994"/>
+			<sector ref="s991"/>
+			<sector ref="s985"/>
+			<sector ref="s1017"/>
+			<sector ref="s1012"/>
+			<switch-position ref="swF29" pos="0"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF26" pos="0"/>
+			<switch-position ref="swF25" pos="1"/>
+			<switch-position ref="swF24" pos="1"/>
+			<switch-position ref="swF23" pos="0"/>
+		</block>
+		<block id="bG301_C3" start="G301" end="C3" dir="0" desc="Fribourg from East Incoming from Gruyere on Platform 3"
+		       length="20" speed="60">
+			<sector ref="s966"/>
+			<sector ref="s963"/>
+			<sector ref="s961"/>
+			<sector ref="s994"/>
+			<sector ref="s991"/>
+			<sector ref="s985"/>
+			<sector ref="s1017"/>
+			<sector ref="s1012"/>
+			<switch-position ref="swF30" pos="0"/>
+			<switch-position ref="swF26" pos="0"/>
+			<switch-position ref="swF25" pos="0"/>
+			<switch-position ref="swF24" pos="1"/>
+			<switch-position ref="swF23" pos="0"/>
+		</block>
+
+		<!--PLATFORM 4-->
+		<block id="bG101_C4" start="G101" end="C4" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Righthand on Platform 4" length="20" speed="60">
+			<sector ref="s976"/>
+			<sector ref="s970"/>
+			<sector ref="s964"/>
+			<sector ref="s994"/>
+			<sector ref="s987"/>
+			<sector ref="s1016"/>
+			<sector ref="s1010"/>
+			<switch-position ref="swF32" pos="1"/>
+			<switch-position ref="swF31" pos="1"/>
+			<switch-position ref="swF29" pos="0"/>
+			<switch-position ref="swF28" pos="1"/>
+			<switch-position ref="swF26" pos="1"/>
+			<switch-position ref="swF25" pos="1"/>
+		</block>
+		<block id="bG201_C4" start="G201" end="C4" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Lefthand on Platform 4" length="20" speed="60">
+			<sector ref="s967"/>
+			<sector ref="s964"/>
+			<sector ref="s994"/>
+			<sector ref="s987"/>
+			<sector ref="s1016"/>
+			<sector ref="s1010"/>
+			<switch-position ref="swF29" pos="0"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF26" pos="1"/>
+			<switch-position ref="swF25" pos="1"/>
+		</block>
+		<block id="bG301_C4" start="G301" end="C4" dir="0" desc="Fribourg from East Incoming from Gruyere on Platform 4"
+		       length="20" speed="60">
+			<sector ref="s966"/>
+			<sector ref="s963"/>
+			<sector ref="s961"/>
+			<sector ref="s994"/>
+			<sector ref="s987"/>
+			<sector ref="s1016"/>
+			<sector ref="s1010"/>
+			<switch-position ref="swF30" pos="0"/>
+			<switch-position ref="swF26" pos="1"/>
+			<switch-position ref="swF25" pos="0"/>
+		</block>
+		<!-- PLATFORM 5 -->
+		<block id="bG101_C5" start="G101" end="C5" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Righthand on Platform 5" length="20" speed="60">
+			<sector ref="s976"/>
+			<sector ref="s970"/>
+			<sector ref="s964"/>
+			<sector ref="s961"/>
+			<sector ref="s995"/>
+			<sector ref="s986"/>
+			<sector ref="s1015"/>
+			<sector ref="s1011"/>
+			<switch-position ref="swF32" pos="1"/>
+			<switch-position ref="swF31" pos="1"/>
+			<switch-position ref="swF29" pos="1"/>
+			<switch-position ref="swF28" pos="1"/>
+			<switch-position ref="swF27" pos="1"/>
+		</block>
+		<block id="bG201_C5" start="G201" end="C5" dir="0"
+		       desc="Fribourg from East Incoming from Luxembourg Lefthand on Platform 5" length="20" speed="60">
+			<sector ref="s967"/>
+			<sector ref="s964"/>
+			<sector ref="s961"/>
+			<sector ref="s995"/>
+			<sector ref="s986"/>
+			<sector ref="s1015"/>
+			<sector ref="s1011"/>
+			<switch-position ref="swF29" pos="1"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF27" pos="1"/>
+		</block>
+		<block id="bG301_C5" start="G301" end="C5" dir="0" desc="Fribourg from East Incoming from Gruyere on Platform 5"
+		       length="20" speed="60">
+			<sector ref="s966"/>
+			<sector ref="s963"/>
+			<sector ref="s995"/>
+			<sector ref="s986"/>
+			<sector ref="s1015"/>
+			<sector ref="s1011"/>
+			<switch-position ref="swF30" pos="1"/>
+			<switch-position ref="swF27" pos="0"/>
+		</block>
+
+
+		<!--_________________FRIBOURG EASTWARD OUTGOING_______________-->
+
+		<!--PLATFORM 1-->
+		<block id="bD1_Park1" start="D1" end="Park1" dir="1" desc="Fribourg Park 1 from Platform 1" length="100"
+		       speed="40">
+			<sector ref="s990"/>
+			<sector ref="s993"/>
+			<sector ref="s977"/>
+			<switch-position ref="swF18" pos="1"/>
+			<switch-position ref="swF19" pos="0"/>
+		</block>
+
+		<block id="bD1_Park2" start="D1" end="Park2" dir="1" desc="Fribourg Park 2 from Platform 1" length="100"
+		       speed="40">
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s973"/>
+			<sector ref="s946"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="1"/>
+		</block>
+
+		<block id="bD1_Park3" start="D1" end="Park3" dir="1" desc="Fribourg Park 3 from Platform 1" length="100"
+		       speed="40">
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s962"/>
+			<sector ref="s974"/>
+			<sector ref="s947"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="1"/>
+		</block>
+
+		<block id="bD1_Park4" start="D1" end="Park4" dir="1" desc="Fribourg Park 4 from Platform 1" length="100"
+		       speed="40">
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s962"/>
+			<sector ref="s965"/>
+			<sector ref="s975"/>
+			<sector ref="s957"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="1"/>
+		</block>
+
+		<block id="bD1_Park5" start="D1" end="Park5" dir="1" desc="Fribourg Park 5 from Platform 1" length="100"
+		       speed="40">
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s962"/>
+			<sector ref="s965"/>
+			<sector ref="s971"/>
+			<sector ref="s956"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="0"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="0"/>
+		</block>
+
+		<!--PLATFORM 2-->
+		<block id="bD2_Park1" start="D2" end="Park1" dir="1" desc="Fribourg Park 1 from Platform 2" length="100"
+		       speed="40">
+			<sector ref="s983"/>
+			<sector ref="s990"/>
+			<sector ref="s993"/>
+			<sector ref="s977"/>
+			<switch-position ref="swF16" pos="1"/>
+			<switch-position ref="swF17" pos="1"/>
+			<switch-position ref="swF18" pos="1"/>
+			<switch-position ref="swF19" pos="1"/>
+		</block>
+
+		<block id="bD2_Park2" start="D2" end="Park2" dir="1" desc="Fribourg Park 2 from Platform 2" length="100"
+		       speed="40">
+			<sector ref="s983"/>
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s973"/>
+			<sector ref="s946"/>
+			<switch-position ref="swF16" pos="1"/>
+			<switch-position ref="swF17" pos="1"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="1"/>
+		</block>
+
+		<block id="bD2_Park3" start="D2" end="Park3" dir="1" desc="Fribourg Park 3 from Platform 2" length="100"
+		       speed="40">
+			<sector ref="s983"/>
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s962"/>
+			<sector ref="s974"/>
+			<sector ref="s947"/>
+			<switch-position ref="swF16" pos="1"/>
+			<switch-position ref="swF17" pos="1"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="1"/>
+		</block>
+
+		<block id="bD2_Park4" start="D2" end="Park4" dir="1" desc="Fribourg Park 4 from Platform 2" length="100"
+		       speed="40">
+			<sector ref="s983"/>
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s962"/>
+			<sector ref="s965"/>
+			<sector ref="s975"/>
+			<sector ref="s957"/>
+			<switch-position ref="swF16" pos="1"/>
+			<switch-position ref="swF17" pos="1"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="1"/>
+		</block>
+
+		<block id="bD2_Park5" start="D2" end="Park5" dir="1" desc="Fribourg Park 5 from Platform 2" length="100"
+		       speed="40">
+			<sector ref="s983"/>
+			<sector ref="s990"/>
+			<sector ref="s996"/>
+			<sector ref="s962"/>
+			<sector ref="s965"/>
+			<sector ref="s971"/>
+			<sector ref="s956"/>
+			<switch-position ref="swF16" pos="1"/>
+			<switch-position ref="swF17" pos="1"/>
+			<switch-position ref="swF18" pos="0"/>
+			<switch-position ref="swF19" pos="1"/>
+			<switch-position ref="swF20" pos="0"/>
+			<switch-position ref="swF21" pos="0"/>
+			<switch-position ref="swF22" pos="0"/>
+		</block>
+		<block id="bD2_S101" start="D2" end="S101" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Left-hand Outgoing from Platform 2" length="25" speed="60">
+			<sector ref="s983"/>
+			<sector ref="s991"/>
+			<sector ref="s960"/>
+			<sector ref="s970"/>
+			<sector ref="s976"/>
+			<sector ref="s942"/>
+			<sector ref="s945"/>
+			<sector ref="s874"/>
+			<switch-position ref="swF16" pos="0"/>
+			<switch-position ref="swF17" pos="0"/>
+			<switch-position ref="swF23" pos="1"/>
+			<switch-position ref="swF24" pos="1"/>
+			<switch-position ref="swF31" pos="0"/>
+			<switch-position ref="swF32" pos="1"/>
+		</block>
+		<block id="bD2_T201" start="D2" end="T201" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Right-hand Outgoing from Platform 2" length="25" speed="60">
+			<sector ref="s983"/>
+			<sector ref="s991"/>
+			<sector ref="s994"/>
+			<sector ref="s964"/>
+			<sector ref="s967"/>
+			<sector ref="s941"/>
+			<sector ref="s944"/>
+			<sector ref="s875"/>
+			<switch-position ref="swF16" pos="0"/>
+			<switch-position ref="swF17" pos="0"/>
+			<switch-position ref="swF23" pos="0"/>
+			<switch-position ref="swF24" pos="0"/>
+			<switch-position ref="swF25" pos="1"/>
+			<switch-position ref="swF26" pos="0"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF29" pos="0"/>
+		</block>
+		<block id="bD2_A301" start="D2" end="A301" dir="1" desc="Fribourg Eastward to Gruyere Outgoing from Platform 2"
+		       length="25" speed="60">
+			<sector ref="s983"/>
+			<sector ref="s991"/>
+			<sector ref="s994"/>
+			<sector ref="s961"/>
+			<sector ref="s963"/>
+			<sector ref="s966"/>
+			<sector ref="s940"/>
+			<sector ref="s943"/>
+			<sector ref="s877"/>
+			<switch-position ref="swF16" pos="0"/>
+			<switch-position ref="swF17" pos="0"/>
+			<switch-position ref="swF23" pos="0"/>
+			<switch-position ref="swF24" pos="0"/>
+			<switch-position ref="swF25" pos="0"/>
+			<switch-position ref="swF26" pos="0"/>
+			<switch-position ref="swF30" pos="0"/>
+		</block>
+
+		<!--PLATFORM 3-->
+		<block id="bD3_S101" start="D3" end="S101" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Lefthand Outgoing from Platform 3" length="25" speed="60">
+			<sector ref="s991"/>
+			<sector ref="s960"/>
+			<sector ref="s970"/>
+			<sector ref="s976"/>
+			<sector ref="s942"/>
+			<sector ref="s945"/>
+			<sector ref="s874"/>
+			<switch-position ref="swF23" pos="1"/>
+			<switch-position ref="swF24" pos="1"/>
+			<switch-position ref="swF31" pos="0"/>
+			<switch-position ref="swF32" pos="1"/>
+		</block>
+		<!-- blocks tested until here -->
+		<block id="bD3_T201" start="D3" end="T201" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Righthand Outgoing from Platform 3" length="25" speed="60">
+			<sector ref="s991"/>
+			<sector ref="s994"/>
+			<sector ref="s964"/>
+			<sector ref="s967"/>
+			<sector ref="s941"/>
+			<sector ref="s944"/>
+			<sector ref="s875"/>
+			<switch-position ref="swF23" pos="0"/>
+			<switch-position ref="swF24" pos="1"/>
+			<switch-position ref="swF25" pos="1"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF29" pos="0"/>
+		</block>
+		<block id="bD3_A301" start="D3" end="A301" dir="1" desc="Fribourg Eastward Outgoing to Gruyere from Platform 3"
+		       length="25" speed="60">
+			<sector ref="s991"/>
+			<sector ref="s994"/>
+			<sector ref="s961"/>
+			<sector ref="s963"/>
+			<sector ref="s966"/>
+			<sector ref="s940"/>
+			<sector ref="s943"/>
+			<sector ref="s877"/>
+			<switch-position ref="swF23" pos="0"/>
+			<switch-position ref="swF24" pos="1"/>
+			<switch-position ref="swF25" pos="0"/>
+			<switch-position ref="swF26" pos="0"/>
+			<switch-position ref="swF30" pos="0"/>
+		</block>
+
+		<!--PLATFORM 4 -->
+		<block id="bD4_S101" start="D4" end="S101" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Lefthand Outgoing from Platform 4" length="25" speed="60">
+			<sector ref="s994"/>
+			<sector ref="s964"/>
+			<sector ref="s970"/>
+			<sector ref="s976"/>
+			<sector ref="s942"/>
+			<sector ref="s945"/>
+			<sector ref="s874"/>
+			<switch-position ref="swF25" pos="1"/>
+			<switch-position ref="swF26" pos="1"/>
+			<switch-position ref="swF28" pos="1"/>
+			<switch-position ref="swF29" pos="0"/>
+			<switch-position ref="swF31" pos="1"/>
+			<switch-position ref="swF32" pos="1"/>
+		</block>
+		<block id="bD4_T201" start="D4" end="T201" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Righthand Outgoing from Platform 4" length="25" speed="60">
+			<sector ref="s994"/>
+			<sector ref="s964"/>
+			<sector ref="s967"/>
+			<sector ref="s941"/>
+			<sector ref="s944"/>
+			<sector ref="s875"/>
+			<switch-position ref="swF25" pos="1"/>
+			<switch-position ref="swF26" pos="1"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF29" pos="0"/>
+		</block>
+		<block id="bD4_A301" start="D4" end="A301" dir="1" desc="Fribourg Eastward Outgoing to Gruyere from Platform 4"
+		       length="25" speed="60">
+			<sector ref="s994"/>
+			<sector ref="s961"/>
+			<sector ref="s963"/>
+			<sector ref="s966"/>
+			<sector ref="s940"/>
+			<sector ref="s943"/>
+			<sector ref="s877"/>
+			<switch-position ref="swF25" pos="0"/>
+			<switch-position ref="swF26" pos="1"/>
+			<switch-position ref="swF30" pos="0"/>
+		</block>
+
+		<!--PLATFORM 5 -->
+		<block id="bD5_S101" start="D5" end="S101" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Lefthand Outgoing from Platform 5" length="25" speed="60">
+			<sector ref="s995"/>
+			<sector ref="s961"/>
+			<sector ref="s964"/>
+			<sector ref="s970"/>
+			<sector ref="s976"/>
+			<sector ref="s942"/>
+			<sector ref="s945"/>
+			<sector ref="s874"/>
+			<switch-position ref="swF27" pos="1"/>
+			<switch-position ref="swF28" pos="1"/>
+			<switch-position ref="swF29" pos="1"/>
+			<switch-position ref="swF31" pos="1"/>
+			<switch-position ref="swF32" pos="1"/>
+		</block>
+		<block id="bD5_T201" start="D5" end="T201" dir="1"
+		       desc="Fribourg Eastward to Luxembourg Righthand Outgoing from Platform 5" length="25" speed="60">
+			<sector ref="s995"/>
+			<sector ref="s961"/>
+			<sector ref="s964"/>
+			<sector ref="s967"/>
+			<sector ref="s941"/>
+			<sector ref="s944"/>
+			<sector ref="s875"/>
+			<switch-position ref="swF27" pos="1"/>
+			<switch-position ref="swF28" pos="0"/>
+			<switch-position ref="swF29" pos="1"/>
+		</block>
+		<block id="bD5_A301" start="D5" end="A301" dir="1" desc="Fribourg Eastward Outgoing to Gruyere from Platform 5"
+		       length="25" speed="60">
+			<sector ref="s995"/>
+			<sector ref="s963"/>
+			<sector ref="s966"/>
+			<sector ref="s940"/>
+			<sector ref="s943"/>
+			<sector ref="s877"/>
+			<switch-position ref="swF27" pos="0"/>
+			<switch-position ref="swF30" pos="1"/>
+		</block>
+
+		<!--____________ FRIBOURG - GRUYERE ____________-->
+
+		<block id="bB22_D302" start="B22" end="D302" dir="0" desc="Fribourg B22 -Gruyère link" length="20" speed="90">
+			<sector ref="s1031"/>
+			<sector ref="s1026"/>
+			<sector ref="s1022"/>
+			<sector ref="s882"/>
+			<sector ref="s840"/>
+			<switch-position ref="swF05" pos="0"/>
+			<switch-position ref="swF04" pos="1"/>
+		</block>
+		<block id="bB23_D302" start="B23" end="D302" dir="0" desc="Fribourg B23 -Gruyère link" length="20" speed="90">
+			<sector ref="s1031"/>
+			<sector ref="s1026"/>
+			<sector ref="s1022"/>
+			<sector ref="s882"/>
+			<sector ref="s840"/>
+			<switch-position ref="swF05" pos="0"/>
+			<switch-position ref="swF04" pos="0"/>
+		</block>
+
+
+		<!--________________ GRUYERE EAST ____________-->
+
+		<block id="bA301_CG1" start="A301" end="CG1" dir="1" desc="Gruyère from East Incoming on Platform 1" length="20"
+		       speed="60">
+			<sector ref="s876"/>
+			<sector ref="s871"/>
+			<sector ref="s870"/>
+			<sector ref="s864"/>
+			<sector ref="s843"/>
+			<switch-position ref="swG01" pos="0"/>
+			<switch-position ref="swG02" pos="0"/>
+		</block>
+		<block id="bA301_CG2" start="A301" end="CG2" dir="1" desc="Gruyère from East Incoming on Platform 2" length="20"
+		       speed="60">
+			<sector ref="s876"/>
+			<sector ref="s867"/>
+			<sector ref="s863"/>
+			<sector ref="s862"/>
+			<switch-position ref="swG01" pos="1"/>
+		</block>
+		<block id="bB1_G301" start="B1" end="G301" dir="0" desc="Gruyère Eastward Outgoing from Platform 1" length="20"
+		       speed="90">
+			<sector ref="s871"/>
+			<sector ref="s876"/>
+			<sector ref="s877"/>
+			<sector ref="s943"/>
+			<sector ref="s940"/>
+			<switch-position ref="swG01" pos="0"/>
+			<switch-position ref="swG02" pos="0"/>
+		</block>
+		<block id="bB2_G301" start="B2" end="G301" dir="0" desc="Gruyère Eastward Outgoing from Platform 2" length="20"
+		       speed="90">
+			<sector ref="s876"/>
+			<sector ref="s877"/>
+			<sector ref="s943"/>
+			<sector ref="s940"/>
+			<switch-position ref="swG01" pos="1"/>
+		</block>
+
+
+		<!--________________ GRUYERE WEST ___________-->
+
+		<block id="bD302_B1" start="D302" end="B1" dir="0" desc="Gruyère from West Incoming on Platform 1" length="20"
+		       speed="90">
+			<sector ref="s842"/>
+			<sector ref="s843"/>
+			<sector ref="s864"/>
+			<sector ref="s870"/>
+			<switch-position ref="swG04" pos="1"/>
+		</block>
+		<block id="bD302_B2" start="D302" end="B2" dir="0" desc="Gruyère from West Incoming on Platform 2" length="20"
+		       speed="90">
+			<sector ref="s842"/>
+			<sector ref="s844"/>
+			<sector ref="s862"/>
+			<sector ref="s863"/>
+			<sector ref="s867"/>
+			<switch-position ref="swG04" pos="0"/>
+			<switch-position ref="swG03" pos="0"/>
+		</block>
+		<block id="bCG1_A302" start="CG1" end="A302" dir="1" desc="Gruyère Westward Outgoing from Platform 1"
+		       length="20" speed="60">
+			<sector ref="s842"/>
+			<sector ref="s840"/>
+			<sector ref="s882"/>
+			<sector ref="s1022"/>
+			<switch-position ref="swG04" pos="1"/>
+		</block>
+		<block id="bCG2_A302" start="CG2" end="A302" dir="1" desc="Gruyère Westward Outgoing from Platform 2"
+		       length="20" speed="60">
+			<sector ref="s844"/>
+			<sector ref="s842"/>
+			<sector ref="s840"/>
+			<sector ref="s882"/>
+			<sector ref="s1022"/>
+			<switch-position ref="swG03" pos="0"/>
+			<switch-position ref="swG04" pos="0"/>
+		</block>
+
+
+		<!--__________ LUXEMBOURG - FRIBOURG ________-->
+
+		<block id="bQ202_G201" start="Q202" end="G201" dir="0" desc="Luxembourg lefthand to Fribourg lefthand" length="20"
+		       speed="60">
+			<sector ref="s866"/>
+			<sector ref="s872"/>
+			<sector ref="s875"/>
+			<sector ref="s944"/>
+			<sector ref="s941"/>
+			<switch-position ref="swL02" pos="1"/>
+			<switch-position ref="swL03" pos="0"/>
+		</block>
+		<block id="bQ202_G101" start="Q202" end="G101" dir="0" desc="Luxembourg lefthand to Fribourg righthand" length="20"
+		       speed="60">
+			<sector ref="s866"/>
+			<sector ref="s872"/>
+			<sector ref="s873"/>
+			<sector ref="s874"/>
+			<sector ref="s945"/>
+			<sector ref="s942"/>
+			<switch-position ref="swL01" pos="0"/>
+			<switch-position ref="swL02" pos="0"/>
+			<switch-position ref="swL03" pos="0"/>
+		</block>
+		<block id="bR102_G201" start="R102" end="G201" dir="0" desc="Luxembourg righthand to Fribourg lefthand" length="20"
+		       speed="60">
+			<sector ref="s865"/>
+			<sector ref="s866"/>
+			<sector ref="s872"/>
+			<sector ref="s875"/>
+			<sector ref="s944"/>
+			<sector ref="s941"/>
+			<switch-position ref="swL02" pos="1"/>
+			<switch-position ref="swL03" pos="1"/>
+			<switch-position ref="swL04" pos="1"/>
+		</block>
+		<block id="bR102_G101" start="R102" end="G101" dir="0" desc="Luxembourg righthand to Fribourg righthand" length="20"
+		       speed="60">
+			<sector ref="s865"/>
+			<sector ref="s873"/>
+			<sector ref="s874"/>
+			<sector ref="s945"/>
+			<sector ref="s942"/>
+			<switch-position ref="swL01" pos="1"/>
+			<switch-position ref="swL04" pos="0"/>
+		</block>
+
+
+		<!--________ LUXEMBOURG - BROYE ___________-->
+
+		<block id="bS101_S102" start="S101" end="S102" dir="1" desc="Luxembourg lefthand to Broye lefthand" length="20"
+		       speed="60">
+			<sector ref="s873"/>
+			<sector ref="s865"/>
+			<sector ref="s861"/>
+			<sector ref="s895"/>
+			<sector ref="s893"/>
+			<switch-position ref="swL01" pos="1"/>
+			<switch-position ref="swL04" pos="0"/>
+		</block>
+		<block id="bS101_T202" start="S101" end="T202" dir="1" desc="Luxembourg lefthand to Broye righthand" length="20"
+		       speed="60">
+			<sector ref="s873"/>
+			<sector ref="s872"/>
+			<sector ref="s866"/>
+			<sector ref="s860"/>
+			<sector ref="s894"/>
+			<sector ref="s892"/>
+			<switch-position ref="swL01" pos="0"/>
+			<switch-position ref="swL02" pos="0"/>
+			<switch-position ref="swL03" pos="0"/>
+		</block>
+		<block id="bT201_S102" start="T201" end="S102" dir="1" desc="Luxembourg righthand to Broye lefthand" length="20"
+		       speed="60">
+			<sector ref="s872"/>
+			<sector ref="s866"/>
+			<sector ref="s865"/>
+			<sector ref="s861"/>
+			<sector ref="s895"/>
+			<sector ref="s893"/>
+			<switch-position ref="swL03" pos="1"/>
+			<switch-position ref="swL04" pos="1"/>
+		</block>
+		<block id="bT201_T202" start="T201" end="T202" dir="1" desc="Luxembourg righthand to Broye righthand" length="20"
+		       speed="60">
+			<sector ref="s872"/>
+			<sector ref="s866"/>
+			<sector ref="s860"/>
+			<sector ref="s894"/>
+			<sector ref="s892"/>
+			<switch-position ref="swL02" pos="1"/>
+			<switch-position ref="swL03" pos="0"/>
+		</block>
+		<block id="bQ203_Q202" start="Q203" end="Q202" dir="0" desc="Broye lefthand to Luxembourg lefthand" length="20"
+		       speed="60">
+			<sector ref="s887"/>
+			<sector ref="s890"/>
+			<sector ref="s892"/>
+			<sector ref="s894"/>
+			<sector ref="s860"/>
+			<switch-position ref="swB02" pos="1"/>
+			<switch-position ref="swB03" pos="0"/>
+		</block>
+		<block id="bQ203_R102" start="Q203" end="R102" dir="0" desc="Broye lefthand to Luxembourg righthand" length="20"
+		       speed="60">
+			<sector ref="s887"/>
+			<sector ref="s890"/>
+			<sector ref="s891"/>
+			<sector ref="s893"/>
+			<sector ref="s895"/>
+			<sector ref="s861"/>
+			<switch-position ref="swB01" pos="0"/>
+			<switch-position ref="swB02" pos="0"/>
+			<switch-position ref="swF03" pos="0"/>
+		</block>
+		<block id="bR103_Q202" start="R103" end="Q202" dir="0" desc="Broye righthand to Luxembourg lefthand" length="20"
+		       speed="60">
+			<sector ref="s886"/>
+			<sector ref="s887"/>
+			<sector ref="s890"/>
+			<sector ref="s892"/>
+			<sector ref="s894"/>
+			<sector ref="s860"/>
+			<switch-position ref="swB02" pos="1"/>
+			<switch-position ref="swB04" pos="1"/>
+		</block>
+		<block id="bR103_R102" start="R103" end="R102" dir="0" desc="Broye righthand to Luxembourg righthand" length="20"
+		       speed="60">
+			<sector ref="s886"/>
+			<sector ref="s891"/>
+			<sector ref="s893"/>
+			<sector ref="s895"/>
+			<sector ref="s861"/>
+			<switch-position ref="swB01" pos="1"/>
+			<switch-position ref="swB04" pos="0"/>
+		</block>
+
+
+		<!--_________ BROYE - FRIBOURG __________ -->
+
+		<block id="bS102_A103" start="S102" end="A103" dir="1" desc="Broye lefthand to Fribourg lefthand" length="20"
+		       speed="60">
+			<sector ref="s891"/>
+			<sector ref="s886"/>
+			<sector ref="s885"/>
+			<sector ref="s880"/>
+			<sector ref="s1021"/>
+			<switch-position ref="swB01" pos="1"/>
+			<switch-position ref="swB04" pos="0"/>
+		</block>
+		<block id="bS102_A203" start="S102" end="A203" dir="1" desc="Broye lefthand to Fribourg righthand" length="20"
+		       speed="60">
+			<sector ref="s891"/>
+			<sector ref="s890"/>
+			<sector ref="s887"/>
+			<sector ref="s884"/>
+			<sector ref="s881"/>
+			<sector ref="s1020"/>
+			<switch-position ref="swB01" pos="0"/>
+			<switch-position ref="swB02" pos="0"/>
+			<switch-position ref="swB03" pos="1"/>
+		</block>
+		<block id="bT202_A103" start="T202" end="A103" dir="1" desc="Broye righthand to Fribourg lefthand" length="20"
+		       speed="60">
+			<sector ref="s890"/>
+			<sector ref="s887"/>
+			<sector ref="s886"/>
+			<sector ref="s885"/>
+			<sector ref="s880"/>
+			<sector ref="s1021"/>
+			<switch-position ref="swB02" pos="1"/>
+			<switch-position ref="swB03" pos="0"/>
+			<switch-position ref="swB04" pos="1"/>
+		</block>
+		<block id="bT202_A203" start="T202" end="A203" dir="1" desc="Broye righthand to Fribourg righthand" length="20"
+		       speed="60">
+			<sector ref="s890"/>
+			<sector ref="s887"/>
+			<sector ref="s884"/>
+			<sector ref="s881"/>
+			<sector ref="s1020"/>
+			<switch-position ref="swB02" pos="1"/>
+			<switch-position ref="swB03" pos="1"/>
+		</block>
+
+
+		<!--__________  FRIBOURG - BROYE _____________-->
+
+		<block id="bB23_Q203" start="B23" end="Q203" dir="0" desc="Fribourg B23 to Broye Lefthand" length="20"
+		       speed="60">
+			<sector ref="s1031"/>
+			<sector ref="s1027"/>
+			<sector ref="s1024"/>
+			<sector ref="s1020"/>
+			<sector ref="s881"/>
+			<sector ref="s884"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF01" pos="1"/>
+		</block>
+		<block id="bB23_R103" start="B23" end="R103" dir="0" desc="Fribourg B23 to Broye Righthand" length="20"
+		       speed="60">
+			<sector ref="s1031"/>
+			<sector ref="s1027"/>
+			<sector ref="s1021"/>
+			<sector ref="s880"/>
+			<sector ref="s885"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF04" pos="0"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF03" pos="0"/>
+		</block>
+		<block id="bB22_Q203" start="B22" end="Q203" dir="0" desc="Fribourg B22 to Broye Lefthand" length="20"
+		       speed="60">
+			<sector ref="s1031"/>
+			<sector ref="s1027"/>
+			<sector ref="s1024"/>
+			<sector ref="s1020"/>
+			<sector ref="s881"/>
+			<sector ref="s884"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF04" pos="1"/>
+			<switch-position ref="swF02" pos="1"/>
+			<switch-position ref="swF03" pos="1"/>
+			<switch-position ref="swF01" pos="1"/>
+		</block>
+		<block id="bB22_R103" start="B22" end="R103" dir="0" desc="Fribourg B22 to Broye Righthand" length="20"
+		       speed="60">
+			<sector ref="s1031"/>
+			<sector ref="s1027"/>
+			<sector ref="s1021"/>
+			<sector ref="s880"/>
+			<sector ref="s885"/>
+			<switch-position ref="swF05" pos="1"/>
+			<switch-position ref="swF04" pos="1"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF03" pos="0"/>
+		</block>
+		<block id="bB25_Q203" start="B25" end="Q203" dir="0" desc="From B25 to Q203 (Broye upper-left binary)" length="20" speed="90">
+			<sector ref="s1030"/>
+			<sector ref="s1024"/>
+			<sector ref="s1020"/>
+			<sector ref="s881"/>
+			<sector ref="s884"/>
+		</block>
+		<block id="bB24_Q203" start="B24" end="Q203" dir="0" desc="From B24 to Q203 (Broye upper-left binary)" length="20" speed="90">
+			<sector ref="s1027"/>
+			<sector ref="s1024"/>
+			<sector ref="s1020"/>
+			<sector ref="s881"/>
+			<sector ref="s884"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF03" pos="1"/>
+		</block>
+		<block id="bB24_R103" start="B24" end="R103" dir="0" desc="From B24 to R103 (Broye lower-left binary)" length="20" speed="90">
+			<sector ref="s1027"/>
+			<sector ref="s1021"/>
+			<sector ref="s880"/>
+			<sector ref="s885"/>
+			<switch-position ref="swF02" pos="0"/>
+			<switch-position ref="swF03" pos="0"/>
+		</block>
+	</blocks>
+
+
+	<!--______________SIGNALS____________-->
+	<signals>
+		<signal id="C1" address="42">
+			<g1 pos="1"/>
+			<g2 pos="NA"/>
+			<r1 pos="2"/>
+			<r2 pos="NA"/>
+			<o1 pos="0"/>
+			<o2 pos="3"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="C2" address="42">
+			<g1 pos="5"/>
+			<g2 pos="NA"/>
+			<r1 pos="6"/>
+			<r2 pos="NA"/>
+			<o1 pos="4"/>
+			<o2 pos="7"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="C3" address="43">
+			<g1 pos="1"/>
+			<g2 pos="NA"/>
+			<r1 pos="2"/>
+			<r2 pos="NA"/>
+			<o1 pos="0"/>
+			<o2 pos="3"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="C4" address="52">
+			<g1 pos="0"/>
+			<g2 pos="3"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="4"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="C5" address="43">
+			<g1 pos="5"/>
+			<g2 pos="NA"/>
+			<r1 pos="6"/>
+			<r2 pos="NA"/>
+			<o1 pos="4"/>
+			<o2 pos="7"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="D1" address="54">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="0"/>
+			<o2 pos="2"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="D2" address="54">
+			<g1 pos="5"/>
+			<g2 pos="NA"/>
+			<r1 pos="6"/>
+			<r2 pos="NA"/>
+			<o1 pos="4"/>
+			<o2 pos="7"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="D3" address="55">
+			<g1 pos="1"/>
+			<g2 pos="NA"/>
+			<r1 pos="2"/>
+			<r2 pos="NA"/>
+			<o1 pos="0"/>
+			<o2 pos="3"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="D4" address="55">
+			<g1 pos="5"/>
+			<g2 pos="NA"/>
+			<r1 pos="6"/>
+			<r2 pos="NA"/>
+			<o1 pos="7"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="D5" address="57">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="B25" address="51">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="B24" address="49">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="B23" address="48">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="B22" address="53">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="B21" address="50">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="A203" address="45">
+			<g1 pos="0"/>
+			<g2 pos="3"/>
+			<r1 pos="1"/>
+			<r2 pos="4"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="A103" address="44">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="A302" address="46">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="A401" address="47">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Q203" address="71">
+			<g1 pos="2"/>
+			<g2 pos="NA"/>
+			<r1 pos="0"/>
+			<r2 pos="NA"/>
+			<o1 pos="1"/>
+			<o2 pos="NA"/>
+			<num pos="3"/>
+		</signal>
+		<signal id="T202" address="71">
+			<g1 pos="6"/>
+			<g2 pos="NA"/>
+			<r1 pos="4"/>
+			<r2 pos="NA"/>
+			<o1 pos="5"/>
+			<o2 pos="NA"/>
+			<num pos="7"/>
+		</signal>
+		<signal id="R103" address="70">
+			<g1 pos="2"/>
+			<g2 pos="NA"/>
+			<r1 pos="0"/>
+			<r2 pos="NA"/>
+			<o1 pos="1"/>
+			<o2 pos="NA"/>
+			<num pos="3"/>
+		</signal>
+		<signal id="S102" address="70">
+			<g1 pos="6"/>
+			<g2 pos="NA"/>
+			<r1 pos="4"/>
+			<r2 pos="NA"/>
+			<o1 pos="5"/>
+			<o2 pos="NA"/>
+			<num pos="7"/>
+		</signal>
+		<signal id="D401" address="69">
+			<g1 pos="3"/>
+			<g2 pos="NA"/>
+			<r1 pos="4"/>
+			<r2 pos="6"/>
+			<o1 pos="5"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="SP1" address="67">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="SP2" address="67">
+			<!-- clone of SP1-->
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="D302" address="66">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="B1" address="65">
+			<g1 pos="0"/>
+			<g2 pos="2"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="B2" address="65">
+			<g1 pos="3"/>
+			<g2 pos="NA"/>
+			<r1 pos="4"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="CG1" address="68">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="CG2" address="69">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="NA"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="A301" address="64">
+			<g1 pos="0"/>
+			<g2 pos="2"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Q202" address="41">
+			<g1 pos="2"/>
+			<g2 pos="NA"/>
+			<r1 pos="0"/>
+			<r2 pos="NA"/>
+			<o1 pos="1"/>
+			<o2 pos="NA"/>
+			<num pos="3"/>
+		</signal>
+		<signal id="R102" address="40">
+			<g1 pos="2"/>
+			<g2 pos="NA"/>
+			<r1 pos="0"/>
+			<r2 pos="NA"/>
+			<o1 pos="1"/>
+			<o2 pos="NA"/>
+			<num pos="3"/>
+		</signal>
+		<signal id="S101" address="40">
+			<g1 pos="6"/>
+			<g2 pos="NA"/>
+			<r1 pos="4"/>
+			<r2 pos="NA"/>
+			<o1 pos="5"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="T201" address="41">
+			<g1 pos="6"/>
+			<g2 pos="NA"/>
+			<r1 pos="4"/>
+			<r2 pos="NA"/>
+			<o1 pos="5"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="G101" address="60">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="2"/>
+			<o2 pos="4"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="G201" address="61">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="G301" address="58">
+			<g1 pos="0"/>
+			<g2 pos="NA"/>
+			<r1 pos="1"/>
+			<r2 pos="3"/>
+			<o1 pos="2"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="EA12" address="56">
+			<g1 pos="1"/>
+			<g2 pos="NA"/>
+			<r1 pos="2"/>
+			<r2 pos="NA"/>
+			<o1 pos="0"/>
+			<o2 pos="3"/>
+			<num pos="NA"/>
+		</signal>
+		<!--
+			Here are the signals which have no physical existence. They are
+			in the XML in order to avoid to have null pointers handling or
+			to have to use some kind of dummy signal.
+		-->
+		<signal id="C" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park1" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park2" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park3" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park4" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park5" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park1R" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park2R" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park3R" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>RailwayFactory.java:43
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park4R" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="Park5R" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="AG1" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+
+		<signal id="SE1" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="SE2" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="SE3" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="SW1" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="SW2" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+		<signal id="SW3" address="0">
+			<g1 pos="NA"/>
+			<g2 pos="NA"/>
+			<r1 pos="NA"/>
+			<r2 pos="NA"/>
+			<o1 pos="NA"/>
+			<o2 pos="NA"/>
+			<num pos="NA"/>
+		</signal>
+	</signals>
+	<stations>
+		<station id="Schwarzsee">
+			<platform-signal ref="SE1"/>
+			<platform-signal ref="SE2"/>
+			<platform-signal ref="SE3"/>
+		</station>
+		<station id="Fribourg">
+			<platform-signal ref="D1"/>
+			<platform-signal ref="D2"/>
+			<platform-signal ref="D3"/>
+			<platform-signal ref="D4"/>
+			<platform-signal ref="D5"/>
+			<platform-signal ref="C1"/>
+			<platform-signal ref="C2"/>
+			<platform-signal ref="C3"/>
+			<platform-signal ref="C4"/>
+			<platform-signal ref="C5"/>
+		</station>
+		<station id="Gruyere">
+			<platform-signal ref="B1"/>
+			<platform-signal ref="B2"/>
+			<platform-signal ref="CG1"/>
+			<platform-signal ref="CG2"/>
+		</station>
+		<station id="Broye">
+			<platform-signal ref="Q203"/>
+			<platform-signal ref="R103"/>
+			<platform-signal ref="T202"/>
+			<platform-signal ref="S102"/>
+		</station>
+		<station id="Luxembourg">
+			<platform-signal ref="Q202"/>
+			<platform-signal ref="R102"/>
+			<platform-signal ref="T201"/>
+			<platoform-signal ref="S101"/>
+		</station>
+	</stations>
+
+
+	<lines>
+		<line id="FGS-commuting">
+			<station ref="Fribourg"/>
+			<station ref="Gruyere"/>
+			<station ref="Schwarzsee"/>
+		</line>
+		<line id="FS-commuting">
+			<station ref="Fribourg"/>
+			<station ref="Schwarzsee"/>
+		</line>
+		<line id="FG-commuting">
+			<station ref="Fribourg"/>
+			<station ref="Gruyere"/>
+		</line>
+		<line id="FB-commuting">
+			<station ref="Fribourg"/>
+			<station ref="Broye"/>
+		</line>
+		<line id="FL-commuting">
+			<station ref="Fribourg"/>
+			<station ref="Luxembourg"/>
+		</line>
+		<line id="FBL-commuting">
+			<station ref="Fribourg"/>
+			<station ref="Broye"/>
+			<station ref="Luxembourg"/>
+		</line>
+		<line id="BG-commuting">
+			<station ref="Broye"/>
+			<station ref="Gruyere"/>
+		</line>
+		<line id="LS-commuting">
+			<station ref="Luxembourg"/>
+			<station ref="Schwarzsee"/>
+		</line>
+	</lines>
+</railway>
