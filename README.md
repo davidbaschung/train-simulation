@@ -1,7 +1,7 @@
 # train-simulation
 > Trains manager for a real miniature train circuit
 
-This group project is based on a given circuit and railway framework (src>main>java>railway package). We then had to manage the trains, their speed, destination, line-commuting, trains collision avoidance, road locking and create interactible components on the graphical user interface.
+This group project is based on a given circuit and railway framework (src>main>java>railway package). We then had to manage the trains, their speed, destination, line-commuting, trains collision avoidance, road locking and create interactive components on the graphical user interface.
 
 <h3>What I learned</h3>
 
